@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+        "http://checkstyle.sourceforge.net/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+    <suppress checks="Javadoc" files="."/>
+    <suppress checks="FinalParameters" files="."/>
+    <suppress checks="DesignForExtension" files="."/>
+    <suppress checks="FinalClass" files="."/>
+    <suppress checks="InterfaceIsType" files="."/>
+    <suppress checks="MagicNumber" files="com[\\/]base[\\/]remote[\\/]entity.*.java"/>
+    <suppress checks="MethodName" files="com[\\/]base[\\/]ejb[\\/]bean[\\/]repository.*Repository.java"/>
+    <suppress checks="ParenPad" files="target"/>
+</suppressions>
